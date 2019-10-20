@@ -7,7 +7,11 @@ public class HumanState extends  StateBESA{
     int sizeMap;
     int x;
     int y;
-
+    int panic;
+    int energy;
+    int speed;
+    int visibilidad;
+    
     public HumanState(int sizeMap) {
         this.sizeMap = sizeMap;
     }
